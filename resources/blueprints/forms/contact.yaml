@@ -1,0 +1,40 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: first_name
+            field:
+              type: text
+              display: 'First Name'
+              validate:
+                - required
+              always_save: false
+          -
+            handle: last_name
+            field:
+              type: text
+              display: 'Last Name'
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              type: text
+              display: Email
+              validate:
+                - required
+          -
+            handle: phone
+            field:
+              type: integer
+              display: Phone
+              validate:
+                - required
+          -
+            handle: note
+            field:
+              type: textarea
+              display: Note
